@@ -517,7 +517,7 @@
 
     <!-- Emotion Control -->
     <string name="emotion_control_title">Emotion Control</string>
-    <string name="emotion_control_category">Emotion</string>
+    <string name="emotion_control_category">Extras</string>
 
     <!-- Turn on display when power connected; turn off display when power disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
@@ -985,5 +985,9 @@
     <!-- Navbar dynamic color -->
     <string name="nav_bar_dynamic_title">Dynamic navbar color</string>
     <string name="nav_bar_dynamic_summary">Enables the navbar to adapt app\'s primary dark color. Restart your desired app to see effect.</string>
+
+    <!-- Substratum -->
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Customize device theme</string>
 
 </resources>
