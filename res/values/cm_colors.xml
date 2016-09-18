@@ -20,4 +20,7 @@ limitations under the License.
     <color name="text_color_white">@android:color/white</color>
     <!-- External Icon Tint -->
     <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
+
+    <color name="dashboard_category_title_background">@color/card_background</color>
+    <color name="selectable_card_background">@color/card_background</color>
 </resources>
