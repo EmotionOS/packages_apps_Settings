@@ -26,7 +26,7 @@
     <string name="reset">Reset</string>
 
     <!-- About phone screen, Emotion version -->
-    <string name="emotion_version_title">Emotion Version</string>
+    <string name="emotion_version_title">EmotionOS Version</string>
     <string name="emotion_version_default">Unknown</string>
 
     <!-- Updater -->

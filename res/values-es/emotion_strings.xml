@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, Emotion version -->
-    <string name="emotion_version_title">Versión Emotion</string>
+    <string name="emotion_version_title">Versión EmotionOS</string>
     <string name="emotion_version_default">Desconocida</string>
 
     <!-- Emotion Settings -->
