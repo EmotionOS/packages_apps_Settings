@@ -517,6 +517,7 @@
 
     <!-- Emotion Control -->
     <string name="emotion_control_title">Emotion Control</string>
+    <string name="emotion_control_summary">Adapt your life!</string>
     <string name="emotion_control_category">Extras</string>
 
     <!-- Turn on display when power connected; turn off display when power disconnected -->

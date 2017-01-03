@@ -995,6 +995,8 @@
                 android:value="com.android.settings.category.emotioncontrol" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.EmotionControl" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/emotion_control_summary" />
         </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"
