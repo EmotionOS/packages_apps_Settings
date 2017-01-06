@@ -1012,4 +1012,8 @@
     <string name="dashboard_summary_double_lines_summary_on">Show dashboard tile summaries in more lines</string>
     <string name="dashboard_summary_double_lines_summary_off">Show dashboard tile summaries in 1 line</string>
 
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Block gesture touch events</string>
+    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
+
 </resources>
