@@ -1072,7 +1072,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         if (EMOTIONCONTROL_FRAGMENT.equals(fragmentName)) {
             Intent EmotionControlIntent = new Intent();
-            EmotionControlIntent.setClassName("com.emotion.emotioncontrol", "com.emotion.emotioncontrol.MainActivity");
+            EmotionControlIntent.setClassName("com.emotion.control", "com.emotion.control.MainActivity");
             startActivity(EmotionControlIntent);
             finish();
             return null;
