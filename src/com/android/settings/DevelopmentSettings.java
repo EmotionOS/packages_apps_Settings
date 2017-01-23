@@ -104,9 +104,6 @@ import cyanogenmod.providers.CMSettings;
 import java.io.File;
 import java.io.IOException;
 import java.io.DataOutputStream;
-
-import org.cyanogenmod.internal.util.FileUtils;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -591,13 +588,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mRootAppops.setOnPreferenceClickListener(this);
 
         if (!removeRootOptionsIfRequired()) {
-            if (FileUtils.fileExists("/system/xbin/su")) {
-                mRootAccess.setEntries(R.array.root_access_entries);
-                mRootAccess.setEntryValues(R.array.root_access_values);
-            } else {
-                mRootAccess.setEntries(R.array.root_access_entries_adb);
-                mRootAccess.setEntryValues(R.array.root_access_values_adb);
-            }
             mAllPrefs.add(mRootAccess);
             mAllPrefs.add(mRootAppops);
         }
