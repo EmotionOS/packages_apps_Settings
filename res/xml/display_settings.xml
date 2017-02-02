@@ -95,7 +95,7 @@
                 android:key="ambient_display_show_battery"
                 android:title="@string/ambient_display_show_battery_title"
                 android:summary="@string/ambient_display_show_battery_summary"
-                android:dependency="doze"
+                android:dependency="doze_fragment"
                 android:defaultValue="true" />
 
         <SwitchPreference
