@@ -172,6 +172,9 @@ public class Settings extends SettingsActivity {
     //Substratum
     public static class SubstratumActivity extends SettingsActivity { /* empty */ }
 
+    //Magisk
+    public static class MagiskActivity extends SettingsActivity { /* empty */ }
+
     public static class AmbientSettingsActivity extends SettingsActivity { /* empty */ }
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

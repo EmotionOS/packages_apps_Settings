@@ -1144,4 +1144,8 @@
     <string name="dots_anim_duration_title">Dots duration</string>
     <string name="home_resize_anim_duration_title">Home button resize duration</string>
 
+    <!-- Magisk Root Manager -->
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Root management</string>
+
 </resources>
