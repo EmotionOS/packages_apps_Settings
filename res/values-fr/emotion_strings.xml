@@ -14,35 +14,399 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- General -->
+  <string name="ok">Ok</string>
+  <string name="reset">Réinitialiser</string>
+  <string name="default_string">Défaut</string>
+  <string name="add">Ajouter</string>
+  <string name="enabled">Activé</string>
+  <string name="choose_app">Choisir une application</string>
+  <string name="help">Aide</string>
+  <string name="reset_message">Réinitialiser toutes les entrées à leur valeur par défaut?</string>
+  <string name="attention">Attention</string>
+  <string name="reset">Réinitialiser</string>
   <!-- About phone screen, Emotion version -->
+  <string name="emotion_version_title">Version EmotionOS</string>
+  <string name="emotion_version_default">Inconnu</string>
   <!-- Emotion Settings -->
+  <string name="emotion_settings_title">Contrôles Émotion</string>
+  <string name="header_category_emotion">Extras</string>
   <!-- Updater -->
+  <string name="emotionupdater">Mises à jour</string>
+  <string name="emotionupdater_summary">Restez à jour avec les dernières fonctionnalités et les derniers correctifs</string>
   <!-- Icon type for lockscreen shorcut. -->
+  <string-array name="icon_types">
+    <item>@string/shortcuts_icon_default</item>
+    <item>@string/shortcuts_icon_presets</item>
+    <item>@string/shortcuts_icon_custom</item>
+  </string-array>
+  <string-array name="shortcut_icon_picker_labels">
+    <item>@string/shortcuts_icon_picker_alarm</item>
+    <item>@string/shortcuts_icon_picker_andy</item>
+    <item>@string/shortcuts_icon_picker_battery</item>
+    <item>@string/shortcuts_icon_picker_browser</item>
+    <item>@string/shortcuts_icon_picker_calendar</item>
+    <item>@string/shortcuts_icon_picker_camera</item>
+    <item>@string/shortcuts_icon_picker_cloud</item>
+    <item>@string/shortcuts_icon_picker_contact</item>
+    <item>@string/shortcuts_icon_picker_directdial</item>
+    <item>@string/shortcuts_icon_picker_directmessage</item>
+    <item>@string/shortcuts_icon_picker_drive</item>
+    <item>@string/shortcuts_icon_picker_dropbox</item>
+    <item>@string/shortcuts_icon_picker_email</item>
+    <item>@string/shortcuts_icon_picker_email2</item>
+    <item>@string/shortcuts_icon_picker_evernote</item>
+    <item>@string/shortcuts_icon_picker_facebook</item>
+    <item>@string/shortcuts_icon_picker_favorite</item>
+    <item>@string/shortcuts_icon_picker_file_browser</item>
+    <item>@string/shortcuts_icon_picker_file_browser2</item>
+    <item>@string/shortcuts_icon_picker_fitness</item>
+    <item>@string/shortcuts_icon_picker_gallery</item>
+    <item>@string/shortcuts_icon_picker_gears</item>
+    <item>@string/shortcuts_icon_picker_google_small</item>
+    <item>@string/shortcuts_icon_picker_gplus</item>
+    <item>@string/shortcuts_icon_picker_gtalk</item>
+    <item>@string/shortcuts_icon_picker_help</item>
+    <item>@string/shortcuts_icon_picker_joystick</item>
+    <item>@string/shortcuts_icon_picker_key</item>
+    <item>@string/shortcuts_icon_picker_laptop</item>
+    <item>@string/shortcuts_icon_picker_luggage</item>
+    <item>@string/shortcuts_icon_picker_maps</item>
+    <item>@string/shortcuts_icon_picker_market</item>
+    <item>@string/shortcuts_icon_picker_movie</item>
+    <item>@string/shortcuts_icon_picker_music</item>
+    <item>@string/shortcuts_icon_picker_nav</item>
+    <item>@string/shortcuts_icon_picker_notes</item>
+    <item>@string/shortcuts_icon_picker_package</item>
+    <item>@string/shortcuts_icon_picker_phone</item>
+    <item>@string/shortcuts_icon_picker_pinterest</item>
+    <item>@string/shortcuts_icon_picker_play</item>
+    <item>@string/shortcuts_icon_picker_pocket</item>
+    <item>@string/shortcuts_icon_picker_quicksettings</item>
+    <item>@string/shortcuts_icon_picker_rss</item>
+    <item>@string/shortcuts_icon_picker_sdcard</item>
+    <item>@string/shortcuts_icon_picker_search</item>
+    <item>@string/shortcuts_icon_picker_sms</item>
+    <item>@string/shortcuts_icon_picker_tasks</item>
+    <item>@string/shortcuts_icon_picker_terminal</item>
+    <item>@string/shortcuts_icon_picker_transit</item>
+    <item>@string/shortcuts_icon_picker_tv</item>
+    <item>@string/shortcuts_icon_picker_twitter</item>
+    <item>@string/shortcuts_icon_picker_unlock</item>
+    <item>@string/airplay</item>
+    <item>@string/android</item>
+    <item>@string/badoo</item>
+    <item>@string/battery</item>
+    <item>@string/bluetooth</item>
+    <item>@string/bookmarks</item>
+    <item>@string/browser</item>
+    <item>@string/browser2</item>
+    <item>@string/calculator</item>
+    <item>@string/calendar</item>
+    <item>@string/calls</item>
+    <item>@string/camera</item>
+    <item>@string/chrome</item>
+    <item>@string/clock</item>
+    <item>@string/cnn</item>
+    <item>@string/deezer</item>
+    <item>@string/deezer2</item>
+    <item>@string/dolphin2</item>
+    <item>@string/downloads</item>
+    <item>@string/dropbox</item>
+    <item>@string/ebay</item>
+    <item>@string/email</item>
+    <item>@string/evernote</item>
+    <item>@string/explorer</item>
+    <item>@string/falcon</item>
+    <item>@string/fb</item>
+    <item>@string/flipboard</item>
+    <item>@string/foursquare</item>
+    <item>@string/firefox</item>
+    <item>@string/googlebuzz</item>
+    <item>@string/googledocs</item>
+    <item>@string/googlewallet</item>
+    <item>@string/line</item>
+    <item>@string/meebo</item>
+    <item>@string/mic</item>
+    <item>@string/newyorktimes</item>
+    <item>@string/rootexplorer</item>
+    <item>@string/sim</item>
+    <item>@string/teamviewer</item>
+    <item>@string/totalcommander</item>
+    <item>@string/weather</item>
+    <item>@string/golocker</item>
+    <item>@string/googlecurrents</item>
+    <item>@string/googletalk</item>
+    <item>@string/gosms</item>
+    <item>@string/maps2</item>
+    <item>@string/memorycleaner</item>
+    <item>@string/navigation</item>
+    <item>@string/pulse</item>
+    <item>@string/shazam</item>
+    <item>@string/swiftkey</item>
+    <item>@string/tmobile</item>
+    <item>@string/trash</item>
+    <item>@string/games</item>
+    <item>@string/gmail</item>
+    <item>@string/docs</item>
+    <item>@string/googledrive</item>
+    <item>@string/googleearth</item>
+    <item>@string/googlehangouts</item>
+    <item>@string/googlekeep</item>
+    <item>@string/googleplay</item>
+    <item>@string/googletranslate</item>
+    <item>@string/google</item>
+    <item>@string/googleplus</item>
+    <item>@string/imdb</item>
+    <item>@string/instagram</item>
+    <item>@string/lastfm</item>
+    <item>@string/maps</item>
+    <item>@string/messages</item>
+    <item>@string/music</item>
+    <item>@string/mxplayer</item>
+    <item>@string/notepad</item>
+    <item>@string/opera</item>
+    <item>@string/paint</item>
+    <item>@string/paypal</item>
+    <item>@string/phone</item>
+    <item>@string/picasa</item>
+    <item>@string/pictures2</item>
+    <item>@string/player_pro</item>
+    <item>@string/playstation</item>
+    <item>@string/reddit</item>
+    <item>@string/settings</item>
+    <item>@string/skype</item>
+    <item>@string/soundscloud</item>
+    <item>@string/spotifiy</item>
+    <item>@string/tapatalk</item>
+    <item>@string/tunein</item>
+    <item>@string/twitter</item>
+    <item>@string/viber</item>
+    <item>@string/videocamera</item>
+    <item>@string/whatsapp</item>
+    <item>@string/wifi</item>
+    <item>@string/xda</item>
+    <item>@string/yahoo</item>
+    <item>@string/youtube</item>
+    <item>@string/zedge</item>
+  </string-array>
   <!-- DUI -->
   <!-- Pulse config -->
   <!-- SmartBar context menu position  -->
   <!-- Extra Info -->
+  <string name="lsextrainfo">Infos supplémentaires</string>
+  <string name="lsextrainfo_summary">Affiche informations supplémentaires pour cpu, écran, etc</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Sélectionneur de couleur</string>
+  <string name="press_color_to_apply">Sélectionner la couleur ci-dessous pour appliquer</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Régler</string>
+  <string name="color_default">Défaut</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Inutile, les options de développement sont activés par défaut.</string>
   <!-- Emotion Control -->
+  <string name="emotion_control_title">Contrôles Émotion</string>
+  <string name="emotion_control_summary">Adapter votre vie !</string>
+  <string name="emotion_control_category">Extras</string>
   <!-- Turn on display when power connected; turn off display when power disconnected -->
+  <string name="wake_when_plugged_or_unplugged_title">Réveiller au branchement</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Allumez l\'écran lors du branchement ou du débranchement de la source d\'alimentation</string>
   <!-- Category title for Charging sounds (Power state change) specific Settings.
          [CHAR LIMIT=40] -->
+  <string name="power_notifications_category_title">Son d\'alimentation</string>
   <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+  <string name="power_notifications_enable_title">Activer</string>
+  <string name="power_notifications_enable_summary">Émettre un son lors de la connexion ou déconnexion du chargeur</string>
   <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+  <string name="power_notifications_vibrate_title">Vibrer</string>
   <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+  <string name="power_notifications_ringtone_title">Son de notification</string>
   <!-- Sound settings, charging sounds label for ringtone == none -->
+  <string name="power_notifications_ringtone_silent">Silencieux</string>
   <!-- Heads up -->
+  <string name="heads_up_category">Notifications flottantes</string>
+  <string name="heads_up_notifications">Interrupteur de Notifications flottantes</string>
+  <string name="summary_heads_up_enabled">Les notification pop-up sont activées</string>
+  <string name="summary_heads_up_disabled">Les notification pop-up sont désactivées</string>
   <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Couleur d\'avertissement</string>
+  <string name="battery_saver_color_summary">Activez les barres d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
   <!-- Unaccounted and overcounted battery stats -->
+  <string name="show_unac_and_overcounted_stats_title">Afficher les statistiques ignorées/surestimées</string>
+  <string name="show_unac_and_overcounted_stats_summary">Afficher dans les statistiques de batterie les usages inconnus, sous le nom \"Divers\".</string>
   <!-- Slim DSLV -->
+  <string name="shortcut_action_none">Aucun</string>
+  <string name="shortcut_action_longpress">Pression longue :</string>
+  <string name="shortcut_action_select_action_longpress">Choisir l\'action associée à une pression longue :</string>
+  <string name="shortcut_action_select_action">Choisir l\'action:</string>
+  <string name="shortcut_action_select_action_newaction">Choisissez la nouvelle action :</string>
+  <string name="shortcut_action_reset">Réinitialiser</string>
+  <string name="shortcut_action_add">Ajouter</string>
   <!-- Lockscreen Shortcuts -->
+  <string name="shortcuts_icon_picker_drive">Drive</string>
+  <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+  <string name="shortcuts_icon_picker_email">E-mail</string>
+  <string name="shortcuts_icon_picker_email2">Email alternatif</string>
+  <string name="shortcuts_icon_picker_evernote">Evernote</string>
+  <string name="shortcuts_icon_picker_facebook">Facebook</string>
+  <string name="shortcuts_icon_picker_favorite">Favori</string>
+  <string name="shortcuts_icon_picker_file_browser">Explorateur de fichiers</string>
+  <string name="shortcuts_icon_picker_file_browser2">Explorateur de fichiers alternatif</string>
+  <string name="shortcuts_icon_picker_fitness">Fitness</string>
+  <string name="shortcuts_icon_picker_gallery">Galerie</string>
+  <string name="shortcuts_icon_picker_gears">Gears</string>
+  <string name="shortcuts_icon_picker_google_small">Google</string>
+  <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+  <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+  <string name="shortcuts_icon_picker_help">Aide</string>
+  <string name="shortcuts_icon_picker_joystick">Joystick</string>
+  <string name="shortcuts_icon_picker_key">Touches/Comptes</string>
+  <string name="shortcuts_icon_picker_laptop">Ordinateur portable</string>
+  <string name="shortcuts_icon_picker_notes">Notes</string>
+  <string name="shortcuts_icon_picker_luggage">Voyage</string>
+  <string name="shortcuts_icon_picker_maps">Cartes</string>
+  <string name="shortcuts_icon_picker_market">Market</string>
+  <string name="shortcuts_icon_picker_movie">Films</string>
+  <string name="shortcuts_icon_picker_music">Musique</string>
+  <string name="shortcuts_icon_picker_nav">Navigation</string>
+  <string name="shortcuts_icon_picker_phone">Téléphone</string>
+  <string name="shortcuts_icon_picker_package">Package</string>
+  <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+  <string name="shortcuts_icon_picker_play">Play</string>
+  <string name="shortcuts_icon_picker_pocket">Pocket</string>
+  <string name="shortcuts_icon_picker_quicksettings">Réglages Rapides</string>
+  <string name="shortcuts_icon_picker_rss">Flux RSS</string>
+  <string name="shortcuts_icon_picker_sdcard">Carte SD</string>
+  <string name="shortcuts_icon_picker_search">Rechercher</string>
+  <string name="shortcuts_icon_picker_sms">Messaging</string>
+  <string name="shortcuts_icon_picker_tasks">Tâches</string>
+  <string name="shortcuts_icon_picker_terminal">Terminal</string>
+  <string name="shortcuts_icon_picker_transit">Transit</string>
+  <string name="shortcuts_icon_picker_tv">TV</string>
+  <string name="shortcuts_icon_picker_twitter">Twitter</string>
+  <string name="shortcuts_icon_picker_unlock">Déverrouiller</string>
+  <string name="shortcut_action_none">Aucun</string>
+  <string name="shortcut_action_app">Appli personnalisée</string>
+  <string name="shortcut_action_home">Accueil</string>
+  <string name="shortcut_action_back">Retour</string>
+  <string name="shortcut_action_menu">Menu</string>
+  <string name="shortcut_action_ime">Ouvrir le sélecteur d\'IME</string>
+  <string name="shortcut_action_power_menu">Menu Marche/Arrêt</string>
+  <string name="shortcut_action_recent">Récents</string>
+  <string name="shortcut_action_longpress">Pression longue :</string>
+  <string name="shortcut_action_select_action_longpress">Choisir l\'action associée à une pression longue :</string>
+  <string name="shortcut_action_select_action">Choisir l\'action:</string>
+  <string name="shortcut_action_select_action_newaction">Choisissez la nouvelle action :</string>
+  <string name="shortcut_action_reset">Réinitialiser</string>
+  <string name="shortcut_action_add">Ajouter</string>
+  <string name="browser2">Browser2</string>
+  <string name="calculator">Calculateur</string>
+  <string name="calendar">Calendrier</string>
+  <string name="calls">Appels</string>
+  <string name="camera">Appareil photo</string>
+  <string name="chrome">Chrome</string>
+  <string name="clock">Horloge</string>
+  <string name="cnn">Cnn</string>
+  <string name="deezer2">Deezer2</string>
+  <string name="deezer">Deezer</string>
+  <string name="dolphin2">Dolphin</string>
+  <string name="downloads">Téléchargements</string>
+  <string name="dropbox">Dropbox</string>
+  <string name="ebay">Ebay</string>
+  <string name="email">E-mail</string>
+  <string name="evernote">Evernote</string>
+  <string name="explorer">Explorateur</string>
+  <string name="falcon">Falcon</string>
+  <string name="fb">Facebook</string>
+  <string name="flipboard">Flipboard</string>
+  <string name="foursquare">Foursquare</string>
+  <string name="firefox">Firefox</string>
+  <string name="googlebuzz">Google buzz</string>
+  <string name="googledocs">Google docs</string>
+  <string name="googlewallet">Google wallet</string>
+  <string name="line">Line</string>
+  <string name="mic">Mic</string>
+  <string name="newyorktimes">Newyork times</string>
+  <string name="rootexplorer">Explorateur Root</string>
+  <string name="sim">Sim</string>
+  <string name="teamviewer">TeamViewer</string>
+  <string name="totalcommander">Total commander</string>
+  <string name="weather">Météo</string>
+  <string name="golocker">Go locker</string>
+  <string name="googlecurrents">Google Currents</string>
+  <string name="googletalk">Google Talk</string>
+  <string name="gosms">Go sms</string>
+  <string name="meebo">Meebo</string>
+  <string name="maps2">Maps2</string>
+  <string name="memorycleaner">Nettoyeur de mémoire</string>
+  <string name="navigation">Navigation</string>
+  <string name="pulse">Pulse</string>
+  <string name="shazam">Shazam</string>
+  <string name="swiftkey">SwiftKey</string>
+  <string name="tmobile">Tmobile</string>
+  <string name="trash">Corbeille</string>
+  <string name="games">Jeux</string>
+  <string name="gmail">Gmail</string>
+  <string name="docs">Docs</string>
+  <string name="googledrive">Google Drive</string>
   <!-- Selinux Switch -->
   <!-- Advanced night mode tile -->
+  <string name="qs_night_bright_medium">Réglez la luminosité moyenne</string>
+  <string name="qs_night_bright_min">Réglez la luminosité minimale</string>
   <!-- Battery stats reset -->
+  <string name="battery_stats_reset">Réinitialiser les statistiques</string>
+  <string name="battery_stats_message">Les statistiques de batterie vont être remises à zéro</string>
+  <string name="ok_string">Ok</string>
   <!-- Navigation Bar -->
+  <string name="navigation_category">Navigation</string>
+  <string name="navbar_interface_title">Interface</string>
+  <string name="navbar_size">Taille de barre</string>
+  <string name="navbar_mode">Mode de navigation</string>
+  <string name="navbar_visibility">Activer la barre de navigation</string>
+  <string name="navigationbar_settings_title">Barre de navigation</string>
+  <string name="navigationbar_settings_summary">Personnaliser le comportement et le style de navigation</string>
+  <string name="navbar_general_title">Avancé</string>
+  <string name="navigation_bar_left_title">Mode gaucher</string>
+  <string name="navigation_bar_left_summary">En mode paysage, afficher la barre de navigation à gauche</string>
+  <string name="info_pref_note_title">Note</string>
+  <string name="smartbar_interface">Barre intelligente</string>
+  <string name="icon_pack_picker_dialog_title">Packs d\'icônes</string>
+  <string name="invalid_icon_from_uri">Impossible de charger l’image depuis le fournisseur de contenu</string>
+  <string name="picker_activities">Activités</string>
+  <string name="select_custom_app_title">Sélectionnez une application personnalisée</string>
+  <string name="select_custom_activity_title">Sélectionnez une activité personnalisée</string>
+  <string name="profile_applist_title">Applications</string>
+  <string name="default_string">Défaut</string>
+  <string name="reset">Réinitialiser</string>
+  <string name="summary_navbar">Smartbar/fling and pulse</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Choisir une action</string>
+  <string name="action_entry_default_action">Paramètres par défaut</string>
+  <string name="action_entry_select_app">Sélectionner une application</string>
+  <string name="action_entry_custom_action">Sélectionnez une action personnalisée</string>
   <!-- Fling -->
+  <string name="fling_settings">Paramètres Fling</string>
+  <string name="fling_interface">Fling</string>
+  <string name="fling_enable_title">Activez Fling</string>
+  <string name="fling_back_home_policy">Les fonctionnalités \"Retour\" et \"Accueil\" doivent toujours être définies. Pour modifier les raccourcis grisés, il faut d\'abord définir les fonctions \"Retour\" et \"Accueil\" sur un autre raccourci</string>
+  <string name="fling_split_bar_policy">Lorsqu\'une seule action (à gauche ou à droite) est définie, elle s\'applique à l\'ensemble de la barre</string>
+  <string name="fling_def_summary">Aucune action définie</string>
+  <string name="fling_swipe_actions">Gestes de balayage</string>
+  <string name="fling_tap_actions">Gestes d\'appui</string>
+  <string name="fling_short_swipe_right">Balayage court à droite</string>
+  <string name="fling_short_swipe_left">Balayage court à gauche</string>
+  <string name="fling_long_swipe_right">Balayage long à droite</string>
+  <string name="fling_long_swipe_left">Balayage long à gauche</string>
+  <string name="fling_right_up_swipe">Glissement vers le haut (Côté droit)</string>
+  <string name="fling_left_up_swipe">Glissement vers le haut (Côté gauche)</string>
+  <string name="fling_single_tap">Simple appui à droite</string>
+  <string name="fling_double_tap">Double appui à droite</string>
+  <string name="fling_long_press">Appui droit prolongé</string>
+  <string name="fling_single_left_tap">Simple appui à gauche</string>
+  <string name="fling_double_left_tap">Double appui à gauche</string>
+  <string name="fling_long_left_press">Pression longue à gauche</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->

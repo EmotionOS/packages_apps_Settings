@@ -739,11 +739,8 @@
   <string name="doze_overwrite_value_summary">Permite sobreescribir los valores por defecto con los valores del usuarioº</string>
   <string name="doze_pulse_title">Ajustes de configuración de usuario</string>
   <string name="doze_pulse_duration_in_title">Desvanecer hacia dentro</string>
-  <string name="doze_pulse_duration_in_summary"></string>
   <string name="doze_pulse_duration_visible_title">Tiempo de visualización</string>
-  <string name="doze_pulse_duration_visible_summary"></string>
   <string name="doze_pulse_duration_out_title">Desvanecerse hacia afuera</string>
-  <string name="doze_pulse_duration_out_summary"></string>
   <string name="doze_trigger_pickup_title">Despertar al coger el teléfono</string>
   <string name="doze_trigger_pickup_summary_on">La pantalla se encenderá al coger el dispositivo</string>
   <string name="doze_trigger_pickup_summary_off">La pantalla no se encenderá al coger el dispositivo</string>
@@ -778,6 +775,7 @@
   <string name="heads_up_time_out_6sec">6 segundos</string>
   <string name="heads_up_time_out_8sec">8 segundos</string>
   <string name="heads_up_time_out_10sec">10 segundos</string>
+  <!-- Heads up timeout -->
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Temporizador de reposo</string>
   <string name="heads_up_snooze_summary_one_minute">Deslizar arriba sobre notificaciones para silenciar la aplicación durante 1 minuto</string>
@@ -790,4 +788,14 @@
   <string name="heads_up_snooze_10min">10 minutos</string>
   <string name="heads_up_snooze_15min">15 minutos</string>
   <string name="heads_up_snooze_20min">20 minutos</string>
+  <!-- Heads up snooze -->
+  <string-array name="heads_up_snooze_entries">
+    <item>@string/heads_up_snooze_disabled</item>
+    <item>@string/heads_up_snooze_1min</item>
+    <item>@string/heads_up_snooze_3min</item>
+    <item>@string/heads_up_snooze_5min</item>
+    <item>@string/heads_up_snooze_10min</item>
+    <item>@string/heads_up_snooze_15min</item>
+    <item>@string/heads_up_snooze_20min</item>
+  </string-array>
 </resources>
