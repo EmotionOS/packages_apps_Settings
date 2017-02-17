@@ -459,6 +459,7 @@
         <item>@string/qs_tile_animation_style_flip</item>
         <item>@string/smartbar_button_animation_pixel</item>
         <item>@string/smartbar_button_animation_pixel_home</item>
+        <item>@string/smartbar_button_animation_pixel_home_ripple</item>
     </string-array>
 
     <string-array name="smartbar_button_animation_values" translatable="false">
@@ -467,6 +468,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
     </string-array>
 
     <string-array name="smartbar_ime_action_entries">
@@ -960,6 +962,7 @@
     <string name="smartbar_button_animation_spring">Spring</string>
     <string name="smartbar_button_animation_pixel">Pixel (all buttons)</string>
     <string name="smartbar_button_animation_pixel_home">Pixel (Home button only)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Home button only) and Ripple</string>
     <string name="qs_tile_animation_style_flip">Flip</string>
     <string name="smartbar_factory_reset_title">Reset to stock</string>
     <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
