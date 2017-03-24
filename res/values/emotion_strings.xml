@@ -1136,4 +1136,8 @@
    <string name="force_authorize_substratum_packages_title">Allow theme apps from unknown sources</string>
    <string name="force_authorize_substratum_packages_summary">Force authorize every theme app</string>
 
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">Navigation button tint</string>
+    <string name="navbar_button_tint_switch_title">Navigation button tinting</string>
+
 </resources>
