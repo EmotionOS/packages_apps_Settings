@@ -118,8 +118,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String KEY_TRUST_AGENT = "trust_agent";
     private static final String KEY_SCREEN_PINNING = "screen_pinning_settings";
     private static final String KEY_LOCK_SCREEN_BLUR_ENABLED = "lock_screen_blur_enabled";
-    private static final int PASSWORD_VISIBLE = 1;
-    private static final int PASSWORD_INVISIBLE = 0;
 
     // These switch preferences need special handling since they're not all stored in Settings.
     private static final String SWITCH_PREFERENCE_KEYS[] = {
