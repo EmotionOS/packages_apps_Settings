@@ -1169,5 +1169,8 @@
     <string name="cyan">Scooter</string>
     <string name="grey">Grey</string>
     <string name="default_string">Default</string>
+	
+    <string name="theme_force_enabled_title">Force enable color engine</string>
+    <string name="theme_force_enabled_summary">Color engine will be forcibly enabled nonetheless OMS state</string>
 
 </resources>
