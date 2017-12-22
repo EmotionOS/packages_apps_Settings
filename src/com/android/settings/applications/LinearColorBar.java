@@ -80,8 +80,6 @@ public class LinearColorBar extends LinearLayout {
         } else {
             mLeftColor = context.getResources().getColor(R.color.linear_color_bar_left);
         }
-        mMiddleColor = context.getResources().getColor(R.color.linear_color_bar_middle);
-        mRightColor = context.getResources().getColor(R.color.linear_color_bar_right);
     }
 
     public void setOnRegionTappedListener(OnRegionTappedListener listener) {
