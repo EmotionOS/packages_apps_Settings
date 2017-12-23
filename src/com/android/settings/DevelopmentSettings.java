@@ -2374,6 +2374,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             writeWebViewMultiprocessOptions();
         } else if (SHORTCUT_MANAGER_RESET_KEY.equals(preference.getKey())) {
             resetShortcutManagerThrottling();
+        } else if(preference == mThemeForceEnabled) {
+          writeThemeForceEnabledOptions();	
         } else if (preference == mUpdateRecoveryPreference) {
             if (mSwitchBar.isChecked()) {
                 if (mUpdateRecoveryDialog != null) {
@@ -2394,11 +2396,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                             .setNegativeButton(android.R.string.no, this)
                             .show();
                 }
-                }
                 mUpdateRecoveryDialog.setOnDismissListener(this);
             }
-	    } else if(preference == mThemeForceEnabled) {
-         writeThemeForceEnabledOptions();	
         } else {
             return super.onPreferenceTreeClick(preference);
         }
